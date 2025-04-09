@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+                    'mi_publisher = p1_adr_APM.publisher:main',
+        'mi_subscriber = p1_adr_APM.subscriber:main',
         ],
     },
 )
